@@ -1,0 +1,122 @@
+body {
+    height: 90vh;
+    background: rgb(220, 220, 220);
+    text-align: center;
+    font-size: x-large;
+    font-weight: 700;
+    letter-spacing: 10px;
+    font-family: "Open Sans";
+    text-transform: capitalize;
+    color: rgb(60, 60, 60)
+}
+
+.title {
+    height: 5vh;
+    background: linear-gradient(to right, red, yellow, blue)
+}
+
+.one {
+    height: 90vh;
+    background: 
+        repeating-linear-gradient(45deg, rgb(183, 0, 255) 0%, rgb(183, 0, 255) 5%, transparent 5%, transparent 10%)
+    ;
+}
+
+.two {
+    height: 90vh;
+    background: 
+        rgb(216, 118, 255) repeating-linear-gradient(-45deg, rgb(183, 0, 255) 0%, rgb(183, 0, 255) 5%, transparent 5%, transparent 10%)
+    ;
+}
+
+.three {
+    height: 90vh;
+    background: 
+        linear-gradient(45deg, rgb(255, 87, 249) 10%, transparent),
+        rgb(216, 118, 255) repeating-linear-gradient(45deg, rgb(183, 0, 255) 0%, rgb(183, 0, 255) 5%, transparent 5%, transparent 10%)
+    ;
+}
+
+.four {
+    height: 90vh;
+    background: 
+        linear-gradient(45deg, rgb(216, 118, 255) 10%, transparent),
+        rgb(216, 118, 255)
+        repeating-linear-gradient(
+            to bottom right,
+            rgb(183, 0, 255) 0%,
+            rgb(183, 0, 255) 5%,
+            rgb(60, 60, 60) 5%,
+            rgb(60, 60, 60) 6%,
+            transparent 6%,
+            transparent 10%
+        )
+    ;
+}
+
+.five {
+    height: 90vh;
+    background: 
+        /* linear-gradient(45deg, rgb(216, 118, 255) 10%, transparent), */
+        
+        linear-gradient(45deg, rgb(216, 118, 255) 1%, transparent),
+        repeating-linear-gradient(
+            to bottom left,
+            rgb(183, 0, 255) 0%,
+            rgb(183, 0, 255) 7%,
+            rgb(60, 60, 60) 7%,
+            rgb(60, 60, 60) 7.5%,
+            transparent 7.5%,
+            transparent 15%
+        ),
+        repeating-linear-gradient(
+            to bottom right,
+            rgb(201, 64, 255) 0%,
+            rgb(201, 64, 255) 10%,
+            rgb(163, 190, 10) 10%,
+            rgb(163, 190, 10) 10.5%,
+            transparent 10.5%,
+            transparent 20%
+        ),
+        /* linear-gradient(to top right, gray, white), */
+        rgb(216, 118, 255)
+    ;
+}
+
+.six {
+    padding: 5px 0;
+    /* height: 90vh; */
+}
+
+.six .scacchiera {
+    background: linear-gradient(to bottom, grey, rgb(133, 54, 54))
+}
+
+.six .scacchiera .riga-dispari {
+    height: 10vh;
+    background:
+    repeating-linear-gradient(
+        to right,
+        transparent 0%,
+        transparent 12.5%,
+        rgb(40, 40, 40) 12.5%,
+        rgb(40, 40, 40) 25%
+    );
+}
+
+.six .scacchiera .riga-pari {
+    height: 10vh;
+    background:
+    repeating-linear-gradient(
+        to right,
+         rgb(40, 40, 40) 0%,
+         rgb(40, 40, 40) 12.5%,
+        transparent 12.5%,
+        transparent 25%
+    );
+}
+
+.footer {
+    height: 5vh;
+    background: linear-gradient(to right, white,gray);
+}
